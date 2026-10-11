@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Dame de Cœur – Dame de compagnie</title>
+<meta name="description" content="La Dame de Cœur, Maude Lesquerre : dame de compagnie. Balades, discussions, écoute, aide administrative, courses, repas et accompagnement aux rendez-vous médicaux. Étude personnalisée gratuite.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#accueil">La Dame de Cœur</a>
+  <button class="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="nav">☰</button>
+  <nav id="nav">
+    <a href="#services">Services</a>
+    <a href="#approche">Mon approche</a>
+    <a href="#apropos">À propos</a>
+    <a href="#contact" class="btn small">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="accueil" class="hero">
+    <div class="blob b1"></div><div class="blob b2"></div>
+    <div class="hero-inner">
+      <svg class="heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.7 5 6 5c2 0 3.3 1.1 4 2.3h4c.7-1.2 2-2.3 4-2.3 3.3 0 5.1 3.4 3.6 6.8C19.5 16.400 12 21 12 21z" transform="translate(0 -.5)"/></svg>
+      <h1>La Dame de Cœur</h1>
+      <p class="tagline">Dame de compagnie</p>
+      <p class="lead">Sortir de son quotidien grâce à une étude personnalisée, à domicile ou à l’extérieur&nbsp;: discussions, écoute…<br><em>Des gestes anodins mais précieux.</em></p>
+      <div class="cta">
+        <a class="btn" href="tel:+33786471878">📞 07 86 47 18 78</a>
+        <a class="btn ghost" href="#contact">Demander une étude gratuite</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Mes services</h2>
+    <p class="sub">Selon vos besoins et vos envies, je vous propose&nbsp;:</p>
+    <div class="grid">
+      <article class="card"><span class="ic">📋</span><h3>Aide administrative</h3><p>Courriers, papiers, démarches&nbsp;: un coup de main pour y voir plus clair.</p></article>
+      <article class="card"><span class="ic">🌿</span><h3>Balades</h3><p>Prendre l’air, marcher à votre rythme, profiter d’une sortie en bonne compagnie.</p></article>
+      <article class="card"><span class="ic">📖</span><h3>Lecture</h3><p>Journal, roman, poèmes&nbsp;: des moments de lecture partagés.</p></article>
+      <article class="card"><span class="ic">🎲</span><h3>Jeux de société</h3><p>Cartes, dominos, jeux de mémoire&nbsp;: stimuler l’esprit dans la bonne humeur.</p></article>
+      <article class="card"><span class="ic">🛒</span><h3>Aide aux courses et repas</h3><p>Faire les courses ensemble, préparer et partager un repas.</p></article>
+      <article class="card"><span class="ic">🩺</span><h3>Accompagnement aux rendez-vous médicaux</h3><p>Une présence rassurante avant, pendant et après le rendez-vous.</p></article>
+      <article class="card"><span class="ic">💬</span><h3>Discussions et écoute</h3><p>Un moment pour parler, se confier, échanger, simplement.</p></article>
+    </div>
+  </section>
+
+  <section id="approche" class="section alt">
+    <h2>Mon approche</h2>
+    <div class="steps">
+      <div class="step"><b>1</b><h3>On se rencontre</h3><p>Un premier échange, à domicile ou par téléphone, pour faire connaissance.</p></div>
+      <div class="step"><b>2</b><h3>Étude personnalisée gratuite</h3><p>Je découvre vos besoins ainsi que vos envies, sans engagement.</p></div>
+      <div class="step"><b>3</b><h3>Un accompagnement sur mesure</h3><p>À domicile ou à l’extérieur, selon ce qui vous fait du bien.</p></div>
+    </div>
+  </section>
+
+  <section id="apropos" class="section">
+    <h2>À propos</h2>
+    <div class="about">
+      <p>Je m’appelle <strong>Maude Lesquerre</strong>. Avec <em>La Dame de Cœur</em>, je souhaite offrir du temps, de l’écoute et de la bienveillance aux personnes qui ont envie de sortir de leur quotidien.</p>
+      <p>Chaque personne est unique&nbsp;: c’est pourquoi chaque accompagnement commence par une étude personnalisée et gratuite, pour construire ensemble des moments qui vous ressemblent.</p>
+      <p class="quote">« Des gestes anodins mais précieux. »</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <h2>Contact</h2>
+    <p class="sub">Une question&nbsp;? Envie d’une étude personnalisée gratuite&nbsp;? Écrivez-moi ou appelez-moi.</p>
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <p><span>📞</span> <a href="tel:+33786471878">07 86 47 18 78</a></p>
+        <p><span>✉️</span> <a href="mailto:m.lesquerre@outlook.fr">m.lesquerre@outlook.fr</a></p>
+        <p><span>👤</span> Maude Lesquerre</p>
+      </div>
+      <form id="form">
+        <label>Votre nom<input name="nom" required></label>
+        <label>Votre téléphone<input name="tel" type="tel"></label>
+        <label>Votre message<textarea name="msg" rows="5" required></textarea></label>
+        <button class="btn" type="submit">Envoyer par e-mail</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>La Dame de Cœur · Maude Lesquerre · 07 86 47 18 78</p>
+  <p class="small">© <span id="y"></span> – Tous droits réservés</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
