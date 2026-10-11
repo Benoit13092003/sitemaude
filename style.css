@@ -62,3 +62,11 @@ footer .small{font-size:.85rem;opacity:.7}
   .contact-wrap{grid-template-columns:1fr}
   .section{padding:3.5rem 6%}
 }
+.messages{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.4rem;max-width:900px;margin:0 auto 3rem}
+.msg{background:#fff;border-left:4px solid var(--rose);border-radius:12px;padding:1.4rem;box-shadow:0 4px 18px rgba(201,132,127,.15)}
+.msg p{margin:0 0 .6rem;font:italic 1.25rem 'Cormorant Garamond',serif}
+.msg span{color:var(--muted);font-size:.9rem}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted)}
+.gform{max-width:560px;margin:auto;background:#fff;padding:2rem;border-radius:18px;box-shadow:0 4px 18px rgba(201,132,127,.15)}
+.gform h3{margin:0;font-size:1.6rem;text-align:center}
+.note{font-size:.85rem;color:var(--muted);margin:0;text-align:center}
