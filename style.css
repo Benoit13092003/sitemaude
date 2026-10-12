@@ -74,3 +74,10 @@ footer .small{font-size:.85rem;opacity:.7}
 .towns{list-style:none;padding:0;margin:0 auto 2rem;display:flex;flex-wrap:wrap;gap:.8rem;justify-content:center}
 .towns li{background:#fff;padding:.6rem 1.3rem;border-radius:999px;font-weight:700;box-shadow:0 2px 10px rgba(201,132,127,.2)}
 .towns li::before{content:"📍 ";font-size:.9em}
+.credit{display:flex;gap:2.5rem;align-items:center;background:#fff;border:2px solid var(--gold);border-radius:24px;padding:2.5rem;box-shadow:0 6px 24px rgba(184,150,62,.15);max-width:850px;margin:auto}
+.credit h2{text-align:left;margin-bottom:.8rem}
+.credit h2::after{display:none}
+.credit p{margin:.5rem 0}
+.pct{flex:none;display:grid;place-items:center;width:150px;height:150px;border-radius:50%;background:var(--gold);color:#fff;font:600 3rem 'Cormorant Garamond',serif}
+.badge{display:inline-block;margin:1.5rem 0 0;padding:.5rem 1.2rem;background:#fff;border:1px solid var(--gold);border-radius:999px;color:var(--ink);font-weight:700;font-size:.95rem}
+@media(max-width:760px){.credit{flex-direction:column;text-align:center;padding:2rem 1.5rem}.credit h2{text-align:center}}
